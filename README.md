@@ -4,10 +4,10 @@ Ex02-Linux Process API-fork(), wait(), exec()
 # Ex02-OS-Linux-Process API - fork(), wait(), exec()
 Operating systems Lab exercise
 
-# AIM :
+## AIM :
 To write C Program that uses Linux Process API - fork(), wait(), exec()
 
-# DESIGN STEPS :
+## DESIGN STEPS :
 
 ### Step 1 :
 
@@ -21,12 +21,12 @@ Write the C Program using Linux Process API - fork(), wait(), exec()
 
 Test the C Program for the desired output. 
 
-# PROGRAM :
+## PROGRAM :
 ```
 DEVELOPED BY : NITHYA D 
 REG NO : 212223240110
 ```
-## C Program to print process ID and parent Process ID using Linux API system calls
+### C Program to print process ID and parent Process ID using Linux API system calls
 ```
 #include <stdio.h>
 #include <sys/types.h>
@@ -48,11 +48,11 @@ int main(void)
 	return 0; }
 ```
 
-## OUTPUT :
+### OUTPUT :
 ![image](https://github.com/user-attachments/assets/f86964f9-1639-4aab-9667-58840b0b6c9d)
 
 
-## C Program to create new process using Linux API system calls fork() and exit() :
+### C Program to create new process using Linux API system calls fork() and exit() :
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -78,10 +78,10 @@ int main() {
 }
 ```
 
-## OUTPUT :
+### OUTPUT :
 ![image](https://github.com/user-attachments/assets/091bca47-5bbb-4913-98ea-7fad4b646def)
 
-## C Program to execute Linux system commands using Linux API system calls exec() family :
+### C Program to execute Linux system commands using Linux API system calls exec() family :
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -112,8 +112,8 @@ int main() {
 }
 ```
 
-## OUTPUT :
+### OUTPUT :
 ![image](https://github.com/user-attachments/assets/2f8e9eb9-def3-4b68-90e6-5ca8857283d0)
 
-# RESULT :
+## RESULT :
 The programs are executed successfully.
